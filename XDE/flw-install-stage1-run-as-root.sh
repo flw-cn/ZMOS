@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-pkg install sudo vim zsh tmux ripgrep
+pkg install sudo vim zsh tmux ripgrep python3
