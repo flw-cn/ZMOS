@@ -79,10 +79,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+backslash split h
+bindsym $mod+backslash split h; exec xterm
 
 # split in vertical orientation
-bindsym $mod+minus split v
+bindsym $mod+minus split v; exec xterm
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -188,4 +188,3 @@ default_border pixel 0
 #smart_gaps on
 #smart_borders on
 #hide_edge_borders smart_no_gaps
-
