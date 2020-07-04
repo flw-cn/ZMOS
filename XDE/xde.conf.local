@@ -1,0 +1,7 @@
+export SCREEN_RESOLUTION=2560x1600
+export FONT_SIZE=12                             # default font size
+export WIDE_FONT_SIZE=$((FONT_SIZE + 1))        # CJK font size
+export SMALL_FONT_SIZE=$((FONT_SIZE - 2))       # small font size
+
+export TERM_BACKGROUND=black
+export TERM_FOREGROUND=white
