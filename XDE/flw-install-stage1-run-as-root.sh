@@ -5,6 +5,6 @@ if [ $USER = "root" -o $(id -un) != "root" ]; then
     return
 fi
 
-pkg install sudo vim zsh tmux ripgrep python3 cmake sourcecodepro-ttf
+pkg install sudo vim zsh tmux ripgrep python3 cmake sourcecodepro-ttf sakura fzf lf
 
 echo "$USER ALL=(ALL) ALL" > /usr/local/etc/sudoers.d/$USER
